@@ -94,6 +94,7 @@ Array.from(list).map(function (elem){
         sec.target.innerText = "red"
         sec.target.style.padding = "20px"
         sec.target.style.color = "pink"
+        sec.target.style.backgroundColor = "green"
         console.log(sec)
     }
 
