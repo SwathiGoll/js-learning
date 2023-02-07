@@ -91,7 +91,8 @@ Array.from(list).map(function (elem){
     elem.addEventListener("click",one)
     
     function one(sec){
-        sec.target.style.color = "red"
+        sec.target.innerText = "red"
+        sec.target.style.padding = "20px"
         console.log(sec)
     }
 
