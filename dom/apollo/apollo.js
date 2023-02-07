@@ -93,7 +93,7 @@ Array.from(list).map(function (elem){
     function one(sec){
         sec.target.innerText = "red"
         sec.target.style.color = "pink"
-        sec.target.style.backgroundColor = "green"
+        sec.target.style.backgroundColor = "green";
         console.log(sec)
     }
 
