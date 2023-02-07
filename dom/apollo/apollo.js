@@ -93,6 +93,7 @@ Array.from(list).map(function (elem){
     function one(sec){
         sec.target.innerText = "red"
         sec.target.style.padding = "20px"
+        sec.target.style.color = "pink"
         console.log(sec)
     }
 
