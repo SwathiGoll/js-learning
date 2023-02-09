@@ -91,10 +91,9 @@ Array.from(list).map(function (elem){
     elem.addEventListener("click",one)
     
     function one(sec){
-        sec.target.innerText = "red"
+        // sec.target.innerText = "red"
         sec.target.style.color = "pink"
-        sec.target.style.backgroundColor = "green";
+        sec.target.style.borderRadius = "10px"
         console.log(sec)
     }
-
 })

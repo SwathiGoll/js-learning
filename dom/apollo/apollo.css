@@ -281,6 +281,16 @@ footer{
     body {
         background-color: #00B38E;
     }
+    #sec-div-head {
+        width: 100%;
+        margin-left: 85px;
+        background-color: #1fa098;
+    }
+    #body-head{
+        display: flex;
+       flex-direction: column;
+       width: 100%;
+    }
     .ul-bar{
         display: flex;
         flex-direction: column;
