@@ -85,15 +85,21 @@
 
 
 
-let list = document.querySelectorAll(".list")
+// let list = document.querySelectorAll(".list")
 
-Array.from(list).map(function (elem){
-    elem.addEventListener("click",one)
+// Array.from(list).map(function (elem){
+//     elem.addEventListener("click",one)
     
-    function one(sec){
-        // sec.target.innerText = "red"
-        sec.target.style.color = "pink"
-        sec.target.style.borderRadius = "10px"
-        console.log(sec)
-    }
-})
+//     function one(sec){
+//         // sec.target.innerText = "red"
+//         sec.target.style.color = "pink"
+//         sec.target.style.borderRadius = "10px"
+//         console.log(sec)
+//     }
+// })
+
+const git = "https://github.com/SwathiGoll/js-learning/blob/new-branch/dom/apollo/apollo.html"
+
+const user = fetch(git)
+
+console.log(user)
